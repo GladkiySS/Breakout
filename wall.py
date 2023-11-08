@@ -19,7 +19,6 @@ class Wall:
             block_row = []
             # перехід до кожного стовпця в цьому рядку
             for col in range(self.cols):
-                # generate x and y positions for each block and create a rectangle from that
                 # визначення x та y позиції для кожної цеглини та створення прямокутника на цих координатах
                 block_x = col * self.width
                 block_y = row * self.height + 50
